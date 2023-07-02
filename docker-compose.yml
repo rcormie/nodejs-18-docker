@@ -5,6 +5,6 @@ services:
     volumes:
       - ./app:/app
     working_dir: /app
-    command: node app/app.js
+    command: node app.js
     ports:
       - 8080:8080
